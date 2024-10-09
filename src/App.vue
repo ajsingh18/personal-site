@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
 import Home from './views/Home.vue'
 import AOS from 'aos'
 import { onMounted } from 'vue'
@@ -14,6 +12,18 @@ onMounted(() => {
 </script>
 
 <template>
+  <head>
+    <title>Frigid IT Solutions - Expert IT Consulting and Tech Support</title>
+    <meta
+      name="description"
+      content="Frigid IT Solutions offers expert IT consulting, tech support, and cloud services for businesses. Improve your tech infrastructure today."
+    />
+    <meta
+      name="keywords"
+      content="IT consulting, tech support, cloud services, IT solutions, business technology"
+    />
+  </head>
+
   <Home></Home>
 </template>
 

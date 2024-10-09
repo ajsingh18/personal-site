@@ -1,4 +1,5 @@
 <template>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <div class="section section-primary about-section main-header">
     <div class="section-content">
       <h1 class="heading-accent">About Me</h1>
